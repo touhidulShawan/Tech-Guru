@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:400,500,900");
+@import url("https://fonts.googleapis.com/css?family=Philosopher");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body p {
+  font-family: "Philosopher", sans-serif;
+}
+
+.navbar {
+  border-bottom: 1px solid #6b9fc5;
+}
+
+.navbar ul li a {
+  font-family: "Roboto Slab", serif;
+  font-size: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff !important;
+}
+
+.navbar ul li a:hover {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  color: #4c4d4f !important;
+}
+
+.navbar .active {
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 2px 2px #373737;
+          box-shadow: 0px 0px 2px 2px #373737;
+}
+
+.navbar .fa {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.navbar .fa:hover {
+  color: #373737;
+}
+
+.navbar .fab {
+  color: #ffffff;
+}
+
+.navbar .fab:hover {
+  color: #373737;
+}
+
+#hero-section h1 {
+  text-transform: uppercase;
+}
+
+#hero-section .btn {
+  border-radius: 0 !important;
+}
+
+#hero-section .btn:hover {
+  border-radius: 20px 2px 20px 2px !important;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  color: #ea652a;
+}
+
+#service-section {
+  position: relative;
+  background: url("../img/cover-image.jpg") no-repeat;
+  min-height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#service-section .blue-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 200px;
+}
+
+#service-section .btn-outline-info {
+  color: #ffffff;
+}
+
+#icon-section .fas {
+  font-size: 60px;
+}
+
+#icon-section .card {
+  border: none !important;
+  border-radius: 0px !important;
+  -webkit-box-shadow: 0px 0px 3px 3px #bebebe;
+          box-shadow: 0px 0px 3px 3px #bebebe;
+}
+
+#icon-section .card:hover {
+  background: #17a2b8;
+  color: #ffffff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+#tech-section {
+  position: relative;
+  background: url("../img/image2.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+}
+
+#tech-section a {
+  color: #ffffff;
+}
+
+#tech-section .blue-overlay {
+  position: absolute;
+  background: rgba(23, 163, 184, 0.473);
+  color: #ffffff;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header-part {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#blog .header-part {
+  width: 50%;
+  margin: auto;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#blog .card {
+  border: none;
+}
+
+#blog .card:hover {
+  -webkit-box-shadow: 0px 0px 2px 1px #4c4d4f;
+          box-shadow: 0px 0px 2px 1px #4c4d4f;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#blog a {
+  color: white;
+}
+
+#blog a:hover {
+  color: #4c4d4f;
+}
+
+#testimonil-section .card {
+  border: none;
+}
+
+#newsletter-section .card {
+  background: #025e73;
+  -webkit-box-shadow: 4px 0px 8px 1px;
+          box-shadow: 4px 0px 8px 1px;
+  color: #ffffff;
+}
+
+#soical-section {
+  position: relative;
+  background: url("../img/social-cover.jpeg") no-repeat;
+  background-size: cover;
+  background-position-y: -145px;
+  background-attachment: fixed;
+  min-height: 250px;
+}
+
+#soical-section .dark-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#soical-section #social-icon {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 50px;
+  font-size: 34px;
+  padding: 15px 25px !important;
+}
+
+#soical-section #social-icon:nth-child(1) {
+  background-color: #3b5999;
+}
+
+#soical-section #social-icon:nth-child(2) {
+  background-color: #e4405f;
+}
+
+#soical-section #social-icon:nth-child(3) {
+  background-color: #55acee;
+}
+
+#soical-section #social-icon:nth-child(4) {
+  padding: 17px 23px !important;
+  background-color: #cd201f;
+}
+
+#soical-section #social-icon:nth-child(5) {
+  padding: 17px 23px !important;
+  background-color: #dd4b39;
+}
+
+#soical-section #social-icon:nth-child(6) {
+  background-color: #0077b5;
+}
+
+#soical-section .fab {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+#soical-section #social-icon:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=style.css.map */

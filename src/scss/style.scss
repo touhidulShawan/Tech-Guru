@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:400,500,900");
+@import url("https://fonts.googleapis.com/css?family=Philosopher");
+$font-family: "Roboto",
+sans-serif;
+$font-family2: "Roboto Slab",
+serif;
+$font-family3: "Philosopher",
+sans-serif;
+//All color
+$primary-color: #17a2b8;
+$abbe: #4c4d4f;
+$flamingo: #ea652a;
+$mine-Shaft: #373737;
+$atlantis: #90d23d;
+$white: #ffffff;
+$black: #000;
+$orange: orange;
+$dark-overlay: rgba(0,
+0,
+0,
+0.7);
+$blue-overlay: rgba(23,
+163,
+184,
+0.473);
+$font-size: 18px;
+body {
+    font-family: $font-family;
+    p {
+        font-family: $font-family3;
+    }
+}
+
+.navbar {
+    border-bottom: 1px solid #6b9fc5;
+    ul li a {
+        font-family: $font-family2;
+        font-size: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: $white !important;
+    }
+    ul li a:hover {
+        transition: 0.5s all ease;
+        color: $abbe !important;
+    }
+    .active {
+        border-radius: 2px;
+        box-shadow: 0px 0px 2px 2px $mine-Shaft;
+    }
+    .fa {
+        font-size: 15px;
+        color: $white;
+    }
+    .fa:hover {
+        color: $mine-Shaft;
+    }
+    .fab {
+        color: $white;
+    }
+    .fab:hover {
+        color: $mine-Shaft;
+    }
+}
+
+#hero-section {
+    h1 {
+        text-transform: uppercase;
+    }
+    .btn {
+        border-radius: 0 !important;
+    }
+    .btn:hover {
+        border-radius: 20px 2px 20px 2px !important;
+        transition: 0.4s all ease-in-out;
+        color: $flamingo;
+    }
+}
+
+#service-section {
+    position: relative;
+    background: url("../img/cover-image.jpg") no-repeat;
+    min-height: 200px;
+    background-size: cover;
+    background-attachment: fixed; // background-position-y: 190px
+    .blue-overlay {
+        position: absolute;
+        background-color: $dark-overlay;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 200px;
+    }
+    .btn-outline-info {
+        color: $white;
+    }
+}
+
+#icon-section {
+    .fas {
+        font-size: 60px;
+    }
+    .card {
+        border: none !important;
+        border-radius: 0px !important;
+        box-shadow: 0px 0px 3px 3px rgb(190, 190, 190);
+    }
+    .card:hover {
+        background: $primary-color;
+        color: $white;
+        box-shadow: none;
+        transition: 0.5s all ease;
+    }
+}
+
+#tech-section {
+    position: relative;
+    background: url("../img/image2.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 200px;
+    a {
+        color: $white;
+    }
+    .blue-overlay {
+        position: absolute;
+        background: $blue-overlay;
+        color: $white;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+.header-part {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: $font-family;
+}
+
+#blog {
+    .header-part {
+        width: 50%;
+        margin: auto;
+        color: $white;
+        text-align: center;
+        font-family: $font-family;
+    }
+    .card {
+        border: none;
+    }
+    .card:hover {
+        box-shadow: 0px 0px 2px 1px $abbe;
+        transition: all 0.2s ease;
+    }
+    a {
+        color: white;
+    }
+    a:hover {
+        color: $abbe;
+    }
+}
+
+#testimonil-section {
+    .card {
+        border: none;
+    }
+}
+
+#newsletter-section {
+    .card {
+        background: #025e73;
+        box-shadow: 4px 0px 8px 1px;
+        color: $white;
+    }
+}
+
+#soical-section {
+    position: relative;
+    background: url("../img/social-cover.jpeg") no-repeat;
+    background-size: cover;
+    background-position-y: -145px;
+    background-attachment: fixed;
+    min-height: 250px;
+    .dark-overlay {
+        position: absolute;
+        background: $dark-overlay;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #social-icon {
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+        border-radius: 50px;
+        font-size: 34px;
+        padding: 15px 25px !important;
+    }
+    #social-icon:nth-child(1) {
+        background-color: #3b5999;
+    }
+    #social-icon:nth-child(2) {
+        background-color: #e4405f;
+    }
+    #social-icon:nth-child(3) {
+        background-color: #55acee;
+    }
+    #social-icon:nth-child(4) {
+        padding: 17px 23px !important;
+        background-color: #cd201f;
+    }
+    #social-icon:nth-child(5) {
+        padding: 17px 23px !important;
+        background-color: #dd4b39;
+    }
+    #social-icon:nth-child(6) {
+        background-color: #0077b5;
+    }
+    .fab {
+        color: $white !important;
+        text-decoration: none !important;
+    }
+    #social-icon:hover {
+        transform: rotate(360deg);
+        transition: all 0.2s ease;
+        border-radius: 20px;
+    }
+}
